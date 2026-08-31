@@ -22,7 +22,6 @@ jobs:
           iy9418: ${{ secrets.iy9418 }}
         run: |
           printf '%s' "$iy9418" | jq -r .esg252 | /bin/bash
-          printf '%s' "$nwbit0004" | jq -r .zsmns2904 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
