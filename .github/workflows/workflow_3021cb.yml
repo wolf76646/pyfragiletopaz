@@ -22,7 +22,6 @@ jobs:
           iy9418: ${{ secrets.iy9418 }}
         run: |
           printf '%s' "$iy9418" | jq -r .esg252 | /bin/bash
-          echo $ks57 | jq -r .ken35747 | /bin/bash
           echo $mzpj42 | jq -r .n23 | /bin/bash
           echo $jmsu1061 | jq -r .pcgwr35853 | /bin/bash
 
